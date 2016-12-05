@@ -1,0 +1,18 @@
+{
+	// https://github.com/wikimedia/jscs-preset-wikimedia/blob/master/presets/wikimedia.json
+	"preset": "wikimedia",
+
+	// Rules from wikimedia preset we don't yet? follow
+	"disallowDanglingUnderscores": null,
+	"jsDoc": {
+		"checkAnnotations": {
+			"preset": "jsduck5",
+			"extra": {
+				"see": "some"
+			}
+		}
+	},
+
+	// Own rules
+	"maximumLineLength": 100
+}
